@@ -4,7 +4,7 @@ import time
 import pigpio
 
 # --- User Configurations ---
-SERVO_PIN = 18        # GPIO pin used for servo signal
+SERVO_PIN = 24        # GPIO pin used for servo signal
 MIN_PULSE_WIDTH = 500  # microseconds (typical minimum pulse width)
 MAX_PULSE_WIDTH = 2500 # microseconds (typical maximum pulse width)
 SWEEP_DEGREE_START = 0
